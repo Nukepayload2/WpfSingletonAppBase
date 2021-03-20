@@ -1,6 +1,7 @@
 ## Nukepayload2.ApplicationServices.Wpf
 Provides single instance application base for WPF.
-Some codes are copied from http://github.com/dotnet/winforms .
+- Nuget package: https://www.nuget.org/packages/Nukepayload2.ApplicationServices.Wpf
+- Some codes are copied from http://github.com/dotnet/winforms .
 
 ### How to use it:
 1. Use Nukepayload2.ApplicationServices.Wpf.WpfApplicationBase as the base class of your WPF application.
