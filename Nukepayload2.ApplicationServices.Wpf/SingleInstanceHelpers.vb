@@ -4,6 +4,10 @@ Imports System.Runtime.InteropServices
 Imports System.Runtime.Serialization
 Imports System.Threading
 
+''' <summary>
+''' Single instance pipe server and client. 
+''' Copied from .NET 5.0 Windows Forms VB runtime.
+''' </summary>
 Friend Module SingleInstanceHelpers
     Private Const NamedPipeOptions As PipeOptions = PipeOptions.Asynchronous Or PipeOptions.CurrentUserOnly
 

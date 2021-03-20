@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <TextBlock TextWrapping="Wrap" Margin="24">
+            This application is single instance.<LineBreak/>
+            If the second instance is created, the first instance will receive Application.StartupNextInstance event. <LineBreak/>
+            Then, the second instance will exit.
+        </TextBlock>
     </Grid>
 </Window>

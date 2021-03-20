@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <RootNamespace>Nukepayload2.ApplicationServices.Wpf</RootNamespace>
@@ -6,6 +6,19 @@
     <UseWPF>true</UseWPF>
     <OptionStrict>On</OptionStrict>
     <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Authors>Nukepayload2</Authors>
+    <Description>Provides single instance application base for WPF.
+How to use it:
+1. Use Nukepayload2.ApplicationServices.Wpf.WpfApplicationBase as the base class of your WPF application.
+2. Set IsSingleInstance="True"
+3. Optionally handle the StartupNextInstance event.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Nukepayload2/WpfSingletonAppBase</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Nukepayload2/WpfSingletonAppBase</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>wpf,singleton,single instance</PackageTags>
+    <PackageReleaseNotes>Initial version. Copied some code from the Windows Forms VB Runtime.</PackageReleaseNotes>
+    <PackageId>Nukepayload2.ApplicationServices.Wpf</PackageId>
   </PropertyGroup>
 
 </Project>

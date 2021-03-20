@@ -13,7 +13,7 @@ Public Class CantStartSingleInstanceException
     '''  Creates a new exception
     ''' </summary>
     Public Sub New()
-        MyBase.New("无法连接到已经启动的应用程序实例")
+        MyBase.New("Unable to connect to the started instance.")
     End Sub
 
     Public Sub New(message As String)
